@@ -120,7 +120,7 @@ import ComponentSelector from './components/components/ComponentSelector.svelte'
 import IssueTemplatePresenter from './components/templates/IssueTemplatePresenter.svelte'
 import IssueTemplates from './components/templates/IssueTemplates.svelte'
 
-import { deleteObject, deleteObjects } from '@hcengineering/view-resources'
+import { deleteObject, deleteObjects, AggregationManager } from '@hcengineering/view-resources'
 import MoveAndDeleteMilestonePopup from './components/milestones/MoveAndDeleteMilestonePopup.svelte'
 import EditIssueTemplate from './components/templates/EditIssueTemplate.svelte'
 import TemplateEstimationEditor from './components/templates/EstimationEditor.svelte'
@@ -141,7 +141,7 @@ import {
   subIssueQuery
 } from './utils'
 
-import { AggregationManager, componentStore, grouppingComponentManager } from './component'
+import { componentStore, grouppingComponentManager } from './component'
 import PriorityIcon from './components/activity/PriorityIcon.svelte'
 import StatusIcon from './components/activity/StatusIcon.svelte'
 import TxIssueCreated from './components/activity/TxIssueCreated.svelte'
